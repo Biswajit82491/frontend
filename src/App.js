@@ -13,7 +13,7 @@ import kids_banner from './Components/Assets/banner_kids.png'
 
 function App() {
   return (
-    <div>
+    <div className='ppt'>
       <BrowserRouter>
       <Navbar/>
       <Routes>

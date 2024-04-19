@@ -9,12 +9,12 @@ const ShopCategory = (props) => {
   
   return (
     <div  className='shop-catogory'>
-         <img src={props.banner} alt="" srcset="" />
+         <img className='shopcategory-banner' src={props.banner} alt="" srcset="" />
          <div className="shopcategoty-indexSort">
           <p>
             <span>Showing 1-12</span>out of 36 products
           </p>
-          <div className="shopcategoty-sort">
+          <div className="shopcategory-sort">
             Sort by <img src={dropdown_icon} alt="" />
           </div>
          </div>
