@@ -1,7 +1,8 @@
 import React from 'react'
 import arrow_icon from "../Assets/breadcrum_arrow.png"
-const Breadcurm = (props) => {
-  const product = props;
+import './Breadcrum.css'
+const Breadcrum = (props) => {
+ const {product} = props
   return (
     <div className='breadcrum'>
       Home <img src={arrow_icon} alt="" />Shop <img src={arrow_icon} alt="" />{product.category} <img src={arrow_icon} alt="" /> {product.name}
@@ -9,4 +10,4 @@ const Breadcurm = (props) => {
   )
 }
 
-export default Breadcurm
+export default Breadcrum
