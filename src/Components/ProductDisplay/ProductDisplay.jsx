@@ -14,12 +14,12 @@ const ProductDisplay = (props) => {
             <img src={product.image} alt="" />
         </div>
         <div className="productdisplay-img">
-            <img className="productdisplay-main-img" src={product.image}/>
+            <img className="productdisplay-main-img" alt='' src={product.image}/>
         </div>
       </div>
       <div className="productdisplay-right">
         <h1>{product.name}</h1>
-        <div className="productdisplay-right-star">
+        <div className="productdisplay-right-stars">
             <img src={star_icon} alt="" />
             <img src={star_icon} alt="" />
             <img src={star_icon} alt="" />
@@ -37,12 +37,11 @@ const ProductDisplay = (props) => {
         </div>
         <div className="productdisplay-right-description">
             A lightweight , usually knitted,pullover shirt, close-fitting and white color ShopCategory with 
-            a round nekline and short sleever , worn as an undershirt or auter part of the te-shart
-            gatment
+            a round nekline and short sleever 
         </div>
         <div className="productdisplay-right-size">
             <h1>Select Size</h1>
-            <div className="productdisplay-right-size">
+            <div className="productdisplay-right-sizes">
                 <div>S</div>
                 <div>M</div>
                 <div>L</div>
@@ -50,7 +49,7 @@ const ProductDisplay = (props) => {
                 <div>XXL</div>
                 
             </div>
-            <button>ADD TO CART</button>
+            <button className='.productdisplay-right-button'>ADD TO CART</button>
             <p className='productdisplay-right-category'><span>Category :</span>Women , T-Shart ,Crop Top</p>
             <p className='productdisplay-right-category'><span>Tags :</span>Morden , Letest</p>
 
